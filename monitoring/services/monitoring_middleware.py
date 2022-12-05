@@ -1,7 +1,7 @@
 from aioprometheus import REGISTRY, Counter, Registry
 from aioprometheus.mypy_types import LabelsType
 from typing import Any, Awaitable, Callable, Dict, Sequence
-from . import CustomSummary, CustomGauge, EXCLUDE_PATHS
+from monitoring.services import CustomSummary, CustomGauge, EXCLUDE_PATHS
 
 Scope = Dict[str, Any]
 Message = Dict[str, Any]

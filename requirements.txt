@@ -1,3 +1,4 @@
 aioprometheus==22.5.0
 ansible-core==2.14
 decorator==5.1.1
+prometheus-client==0.15.0
